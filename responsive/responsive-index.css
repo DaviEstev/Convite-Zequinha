@@ -1,0 +1,135 @@
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .header-main {
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    
+    header {
+        display: flex;
+        top: 0;
+        height: 25vh;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction:row;
+        width: 88vw;
+        height: 20vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin:0;
+    }
+    .navegacao img {
+        object-fit: cover;
+    }
+    .nav-resp {
+        display: flex;
+        flex-direction: row;
+        gap:0;
+        gap:20px;
+        margin:50px 0px 0px 5px;
+    }
+
+    .convite {
+        display: flex;
+        flex-direction: column;
+        width: 91vw;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 5px;
+        margin:0;
+        margin-top: 10px;
+        
+    }
+
+    .convite img {
+        height: 425px;
+        width: 320px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    .rodape {
+        margin:0;
+        margin-top: 10px;
+        width: 91vw;
+        margin-bottom: 10px;
+    }
+
+    .patrocinios {
+        gap: 10px;
+    }
+    .patrocinios img {
+        height: 110px;
+    }
+}
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .header-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        display: flex;
+        top: 0;
+        height: 26vh;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction:row;
+        width: 91vw;
+        height: 20vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .navegacao a {
+        font-size: 25px;
+    }
+
+    .navegacao img {
+        object-fit: cover;
+    }
+    .nav-resp {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-left: 10px;
+        gap:0;
+        gap: 100px;
+        margin-left: 100px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .convite {
+        display: flex;
+        flex-direction: column;
+        width: 93vw;
+        align-items: flex-start;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .convite img {
+        height: 460px;
+        width: 630px;
+        margin-left: 5px;
+        object-fit: cover;
+    }
+
+    .rodape {
+        margin: 5px 5px  10px 10px;
+    }
+
+    .patrocinios {
+        gap: 180px;
+        
+    }
+    
+    /* Estilos para telas maiores que 600px e menores que 1024px */
+  }
+
+  

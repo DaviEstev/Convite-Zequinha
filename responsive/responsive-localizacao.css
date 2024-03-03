@@ -1,0 +1,96 @@
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .header-main {
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    
+    header {
+        display: flex;
+        top: 0;
+        height: 25vh;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction:row;
+        width: 88vw;
+        height: 20vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin:0;
+    }
+    .navegacao img {
+        object-fit: cover;
+    }
+    .nav-resp {
+        display: flex;
+        flex-direction: row;
+        gap:0;
+        gap: 10px;
+        margin:50px 0px 0px 5px;
+    }
+    .conteudo {
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 88vw;
+    }
+
+    .paragrafo-local {
+        text-align: center;
+    }
+    .map iframe  {
+        width: 89vw;
+        height: 70vh;
+    }
+
+}
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .header-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        display: flex;
+        top: 0;
+        height: 26vh;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction:row;
+        width: 100vw;
+        height: 20vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .navegacao a {
+        font-size: 25px;
+    }
+
+    .navegacao img {
+        object-fit: cover;
+    }
+    .nav-resp {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        gap:0;
+        gap: 100px;
+        margin-left: 80px;
+    }
+    .conteudo {
+        width: 92vw;
+        margin: 0px 5px 10px 5px;
+    }
+
+    .map iframe{
+        margin: 0;
+        width: 640px;
+        height: 520px;
+    }
+    /* Estilos para telas maiores que 600px e menores que 1024px */
+  }

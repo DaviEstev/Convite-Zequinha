@@ -1,0 +1,59 @@
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .header-main {
+        display: flex;
+        flex-direction: column;
+        margin:0;
+    }
+    
+    header {
+        display: flex;
+        top: 0;
+        height: 25vh;
+    }
+    .navegacao {
+        display: flex;
+        flex-direction:row;
+        width: 86vw;
+        height: 20vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin:0;
+    }
+    .navegacao img {
+        object-fit: cover;
+    }
+    .nav-resp {
+        display: flex;
+        flex-direction: row;
+        gap:0;
+        gap:10px;
+        margin:50px 0px 0px 10px;
+    }
+
+    .grid-container {
+        margin: 10px 0px 10px 0px;
+        width: 88vw;
+        font-size: 5px;
+    }
+
+    .grid-item {
+        justify-content: center;
+    }
+}
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navegacao {
+        margin:0
+    }
+    
+    .conteudo {
+        width: 75vw;
+    }
+
+    .grid-container {
+        margin: 0;
+        margin-left: 10px;
+        width: 75vw;
+    }
+    /* Estilos para telas maiores que 600px e menores que 1024px */
+  }

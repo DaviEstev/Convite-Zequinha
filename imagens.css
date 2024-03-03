@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-main{
+    display: flex;
+}
+
+body {
+    background-image: linear-gradient(to right, #003840, #005A5B);
+}
+
+.header-main {
+    display: flex;
+}
+
+.navegacao {
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: green;
+    width: 120px;
+    height: 105vh;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px solid greenyellow;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.navegacao img {
+    height: 130px;
+    object-fit: cover;
+}
+
+.navegacao a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.grid-container {
+    background-color: green;
+    width: 84vw;
+    height: 105vh;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px solid greenyellow;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 5px 5px 5px 5px black;
+    gap:20px;
+    color:white;
+    display: grid; 
+    gap: 20px; /* Espaçamento entre os itens */
+    overflow-y:scroll; /* Adiciona uma barra de rolagem vertical quando necessário */
+    padding: 10px; /* Adiciona algum espaço interno ao contêiner */
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item img {
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    width: 60vw;
+    height: 70vh;
+  }
+
+
